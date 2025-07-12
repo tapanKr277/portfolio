@@ -1,41 +1,63 @@
+import React from 'react';
+import ProjectCard from './ProjectCard';
+import { Typewriter } from 'react-simple-typewriter';
 
-import ProjectCard from './ProjectCard'
-
-const projects=[
-    {
-        h1:"OpenChat – Speak Your Mind, Unfiltered & Free!",
-        p:"OpenChat is a judgment-free space where anyone can express their thoughts freely. No filters, no restrictions—just raw, unfiltered conversations with a community that values true expression.",
-        year:"2023",
-        role:"Developer",
-        livelink:"https://vite-chatapp.vercel.app/",
-        gitlink:"https://github.com/sirdroj/vite_chatapp",
-        img:"./chatapp.png"
-    },
-    {
-        h1:"Interviewer bot",
-        p:"I developed a Voice-to-Voice Interview Bot using Python and Streamlit, integrating Groq APIs for LLM operations. The bot leverages DeepSeek for language understanding, Whisper for speech-to-text, and PlayAI-TTS for text-to-speech conversion. This real-time system enables seamless, natural conversations, showcasing advanced AI integration and user-friendly voice interaction capabilities.",
-        year:"2025",
-        role:"Developer",
-        // livelink:"https://aboutrepl-oggtwskbcc3kiegbgdfswu.streamlit.app/",
-        gitlink:"https://github.com/sirdroj/interview_bot",
-        img:"./interviewBot.png"
-    },
-
-]
+const projects = [
+  {
+    h1: 'E-commerce',
+    p: 'A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using React and Django.',
+    year: '2024',
+    role: 'Full Stack Developer',
+    livelink: 'https://ecommerce-client-tapan.vercel.app/',
+    gitlink: 'https://github.com/tapanKr277/E-commerce',
+    img: './ecommerce_.png',
+  },
+  {
+    h1: 'DevSearch',
+    p: 'A platform for developers to showcase their portfolios, connect via messages, and search for talent. Built using Django and HTML templates.',
+    year: '2023',
+    role: 'Backend + Template UI',
+    livelink: 'https://devsearch-1zbs.onrender.com/',
+    gitlink: 'https://github.com/tapanKr277/DevSearch',
+    img: './devsearch.png',
+  },
+  {
+    h1: 'Weather Broadcasting',
+    p: 'A simple React app to show live weather data using OpenWeatherMap API. Features search, current conditions, and dynamic UI.',
+    year: '2023',
+    role: 'Frontend Developer',
+    livelink: 'https://weather-forecasting-app-tk.vercel.app/',
+    gitlink: 'https://github.com/tapanKr277/WeatherBroadcasting',
+    img: './weather_broadcast.jpg',
+  },
+];
 
 const FeaturedProjects = () => {
-    return (
+  return (
+    <div className="w-full pt-10 px-4" id="work">
+      <h1 className="text-black text-[42px] lg:text-7xl font-bold">
+        <Typewriter
+          words={['Featured Projects']}
+          loop={false}
+          cursor
+          cursorStyle="_"
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={500}
+        />
+      </h1>
 
-        <div className='w-full pt-10' id='work'>
-            <h1 className=' text-[42px] lg:text-7xl text-LightBlue my-2'>Featured Projects</h1>
-            <p className=' lg:text-lg text-base  text-secondary font-manrope mb-5 w-full'>Here are some of the selected projects that showcase my passion for front-end development.</p>
-            {/* <ProjectCard /> */}
-            {projects.map((item,idx)=>(
-                <ProjectCard data={item} key={idx} />
-            ))}
-        </div>
+      <p className="lg:text-lg text-base text-secondary font-manrope mb-6">
+        Here are some selected projects that showcase my passion for full-stack development.
+      </p>
 
-    )
-}
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        {projects.map((project, index) => (
+          <ProjectCard key={index} data={project} />
+        ))}
+      </div>
+    </div>
+  );
+};
 
-export default FeaturedProjects
+export default FeaturedProjects;

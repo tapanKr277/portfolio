@@ -35,7 +35,7 @@ const Intro = () => {
         </p>
 
         {/* Buttons Section */}
-        <div className="flex mt-10 items-center gap-4 flex-wrap">
+        <div className="flex mt-10 items-center gap-4 flex-nowrap overflow-x-auto">
           {/* Resume Button */}
           <div className="relative group">
             <a
