@@ -1,5 +1,6 @@
 import { useState } from "react";
 import { openPdfInNewTab } from "./Intro";
+import { Typewriter } from "react-simple-typewriter";
 
 const Contact = () => {
   const [recipient, setRecipient] = useState("");
@@ -21,7 +22,15 @@ const Contact = () => {
         {/* Left Section */}
         <div className="links lg:w-2/4 px-2">
           <h1 className="lg:text-7xl text-5xl font-bold text-black">
-            Let’s connect
+            <Typewriter
+              words={["Let’s connect"]}
+              loop={false}
+              cursor
+              cursorStyle="_"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1500}
+            />
           </h1>
 
           <h3 className="font-manrope text-lg text-gray-800 mt-4">

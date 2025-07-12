@@ -8,10 +8,10 @@ export const openPdfInNewTab = () => {
 
 const Intro = () => {
   return (
-    <div className="flex flex-col lg:flex-row justify-between w-full items-center h-screen mb-16 px-1">
+    <div className="flex flex-col lg:flex-row justify-between w-full items-center min-h-screen px-4 overflow-hidden" id="intro">
       {/* Left Section */}
-      <div className="lg:my-36 mt-10 mb-7 lg:w-2/5 w-full">
-        <div className="text-black font-bold lg:text-8xl text-6xl leading-tight min-h-[120px]">
+      <div className="lg:my-36 mt-10 mb-10 lg:w-2/5 w-full">
+        <div className="text-black font-bold lg:text-8xl text-5xl leading-tight min-h-[120px]">
           <h1>
             <Typewriter
               words={["HI, I AM", "Tapan Kumar"]}
@@ -92,13 +92,15 @@ const Intro = () => {
       </div>
 
       {/* Right - Profile Image */}
-      <div className="relative w-[600px] h-[600px] mx-auto">
-        <img
-          src="PROFILE_1.png"
-          className="w-full h-full object-contain z-10 relative"
-          alt="Tapan's Profile"
-        />
-        <div className="absolute inset-0 bg-[#f8f9fa] z-0" />
+      <div className="w-full lg:w-[600px] flex justify-center items-center">
+        <div className="relative w-full max-w-[350px] sm:max-w-[400px] md:max-w-[500px] lg:w-[600px] h-auto mx-auto">
+          <img
+            src="PROFILE_1.png"
+            className="w-full h-auto object-contain z-10 relative"
+            alt="Tapan's Profile"
+          />
+          <div className="absolute inset-0 bg-[#f8f9fa] z-0" />
+        </div>
       </div>
     </div>
   );

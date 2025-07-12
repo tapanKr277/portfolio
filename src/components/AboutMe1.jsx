@@ -1,3 +1,4 @@
+import { Typewriter } from "react-simple-typewriter";
 
 const categorizedSkills = {
   "Programming Languages": [
@@ -22,7 +23,7 @@ const categorizedSkills = {
     "Beat",
     "Worker",
   ],
-  "Databases": ["PostgreSQL", "MySQL"],
+  Databases: ["PostgreSQL", "MySQL"],
   "DevOps & Tools": ["Docker", "Prometheus", "Grafana"],
   "Security & Auth": ["JWT", "OAuth"],
   "APIs & Integration": ["REST APIs"],
@@ -33,7 +34,15 @@ const AboutMe1 = () => {
     <div className="lg:flex justify-between mb-2 min-h-screen pt-28 px-4">
       {/* Left Heading */}
       <div className="lg:w-[900px] lg:text-8xl text-[42px] font-bold text-black">
-        About Me
+        <Typewriter
+          words={["About Me"]}
+          loop={false}
+          cursor
+          cursorStyle="_"
+          typeSpeed={100}
+          deleteSpeed={50}
+          delaySpeed={1200}
+        />
       </div>
 
       {/* Right Content */}

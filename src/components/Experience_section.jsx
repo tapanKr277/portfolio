@@ -1,4 +1,4 @@
-
+import { Typewriter } from "react-simple-typewriter";
 import Experiencecard_for_about from "./Experiencecard_for_about";
 
 export const experience = [
@@ -39,7 +39,15 @@ const Experience_section = () => {
     >
       <div className="lg:w-2/5 w-full mb-6">
         <h1 className="lg:text-8xl text-5xl font-bold text-black">
-          My Experience
+          <Typewriter
+            words={["My Experience"]}
+            loop={false}
+            cursor
+            cursorStyle="_"
+            typeSpeed={100}
+            deleteSpeed={50}
+            delaySpeed={1200}
+          />
         </h1>
       </div>
       <div className="lg:w-3/5 w-full font-manrope text-black space-y-8">

@@ -1,3 +1,4 @@
+import { Typewriter } from "react-simple-typewriter";
 
 const cirtificates = [
   {
@@ -33,7 +34,7 @@ const cirtificates = [
     institiute: "Hackerrank",
     issuer: "Hackerrank",
     date: "2023",
-    link: "https://www.hackerrank.com/certificates/1a0iPIgjzag48rEihJuGMK_NYF-RmUALG", // fallback from provided order
+    link: "https://www.hackerrank.com/certificates/1a0iPIgjzag48rEihJuGMK_NYF-RmUALG",
   },
 ];
 
@@ -41,9 +42,20 @@ const Cirtifications = () => {
   return (
     <>
       <div className="lg:flex justify-between lg:space-x-10 mb-40 min-h-screen pt-28 px-4">
+        {/* Typing Effect Heading */}
         <div className="lg:w-[900px] lg:text-8xl text-[42px] font-bold text-black">
-          My Certifications
+          <Typewriter
+            words={["My Certifications"]}
+            loop={false}
+            cursor
+            cursorStyle="_"
+            typeSpeed={100}
+            deleteSpeed={50}
+            delaySpeed={1200}
+          />
         </div>
+
+        {/* Certificates List */}
         <div className="lg:w-[1800px] lg:px-3 font-manrope lg:mr-20">
           <ul>
             {cirtificates.map((item, idx) => (
@@ -70,6 +82,7 @@ const Cirtifications = () => {
           </ul>
         </div>
       </div>
+
       <div className="-mx-4 lg:-mx-28">
         <hr className="border-gray-300" />
       </div>
