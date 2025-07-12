@@ -77,7 +77,7 @@ const Navbar2 = ({ setpg }) => {
         </button>
       </div>
       <nav
-        className={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-LightBlue text-white bg-opacity-100 transform delay-100 transition-all duration-300 ${
+        className={`fixed flex top-0 left-0 w-full p-10 z-10 h-screen pt-24 bg-black text-white bg-opacity-100 transform delay-100 transition-all duration-300 ${
           navbarOpen
             ? "opacity-100 translate-x-0"
             : "opacity-0 -translate-x-full"
