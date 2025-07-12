@@ -34,7 +34,7 @@ const projects = [
 
 const FeaturedProjects = () => {
   return (
-    <div className="w-full pt-10 px-4" id="work">
+    <div className="w-full pt-10 px-4" id="projects">
       <h1 className="text-black text-[42px] lg:text-7xl font-bold">
         <Typewriter
           words={["Featured Projects"]}

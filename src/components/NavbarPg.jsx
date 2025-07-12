@@ -21,10 +21,22 @@ const Navbar2 = ({ setpg }) => {
       </div>
       <div className="text-base lg:block hidden">
         <a
+          className="ml-4 cursor-pointer hover:text-black hover:underline transition duration-200"
+          onClick={() => smoothScroll("#education")}
+        >
+          Education
+        </a>
+        <a
           className="mx-4 cursor-pointer hover:text-black hover:underline transition duration-200"
           onClick={() => smoothScroll("#work")}
         >
           Work
+        </a>
+        <a
+          className="mx-4 cursor-pointer hover:text-black hover:underline transition duration-200"
+          onClick={() => smoothScroll("#projects")}
+        >
+          Projects
         </a>
         <a
           className="mx-4 cursor-pointer hover:text-black hover:underline transition duration-200"
@@ -33,16 +45,16 @@ const Navbar2 = ({ setpg }) => {
           About
         </a>
         <a
+          className="mx-4 cursor-pointer hover:text-black hover:underline transition duration-200"
+          onClick={() => smoothScroll("#certification")}
+        >
+          Certification
+        </a>
+        <a
           className="ml-4 cursor-pointer hover:text-black hover:underline transition duration-200"
           onClick={() => smoothScroll("#contact")}
         >
           Contact
-        </a>
-        <a
-          className="ml-4 cursor-pointer hover:text-black hover:underline transition duration-200"
-          onClick={() => smoothScroll("#education")}
-        >
-          Education
         </a>
       </div>
 

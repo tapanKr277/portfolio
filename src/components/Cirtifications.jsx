@@ -41,7 +41,7 @@ const cirtificates = [
 const Cirtifications = () => {
   return (
     <>
-      <div className="lg:flex justify-between lg:space-x-10 mb-40 min-h-screen pt-28 px-4">
+      <div className="lg:flex justify-between lg:space-x-10 mb-40 min-h-screen pt-28 px-4" id="certification">
         {/* Typing Effect Heading */}
         <div className="lg:w-[900px] lg:text-8xl text-[42px] font-bold text-black">
           <Typewriter

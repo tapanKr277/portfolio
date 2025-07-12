@@ -33,29 +33,34 @@ export const experience = [
 
 const Experience_section = () => {
   return (
-    <div
-      className="lg:flex justify-between w-full items-start lg:mb-20 mb-16 lg:pt-36 pt-12 px-4"
+    <section
       id="work"
+      className="w-full px-4 pt-12 pb-8 lg:pt-36 lg:pb-20"
     >
-      <div className="lg:w-2/5 w-full mb-6">
-        <h1 className="lg:text-8xl text-5xl font-bold text-black">
-          <Typewriter
-            words={["My Experience"]}
-            loop={false}
-            cursor
-            cursorStyle="_"
-            typeSpeed={100}
-            deleteSpeed={50}
-            delaySpeed={1200}
-          />
-        </h1>
+      <div className="lg:flex lg:justify-between items-start">
+        {/* Left Title */}
+        <div className="lg:w-2/5 w-full mb-8 lg:mb-0">
+          <h1 className="text-4xl sm:text-5xl lg:text-8xl font-bold text-black leading-tight">
+            <Typewriter
+              words={["My Experience"]}
+              loop={false}
+              cursor
+              cursorStyle="_"
+              typeSpeed={100}
+              deleteSpeed={50}
+              delaySpeed={1200}
+            />
+          </h1>
+        </div>
+
+        {/* Experience Cards */}
+        <div className="lg:w-3/5 w-full space-y-8 font-manrope text-black">
+          {experience.map((item, index) => (
+            <Experiencecard_for_about key={index} job={item} />
+          ))}
+        </div>
       </div>
-      <div className="lg:w-3/5 w-full font-manrope text-black space-y-8">
-        {experience.map((item, index) => (
-          <Experiencecard_for_about key={index} job={item} />
-        ))}
-      </div>
-    </div>
+    </section>
   );
 };
 
