@@ -3,7 +3,7 @@ import { Typewriter } from "react-simple-typewriter";
 export const Education = () => {
   return (
     <div
-      className="lg:flex justify-between mb-2 h-[80vh] pt-28 px-4"
+      className="lg:flex justify-between mb-2 min-h-screen pt-28 px-4"
       id="education"
     >
       {/* Left Heading */}
@@ -19,9 +19,9 @@ export const Education = () => {
         />
       </div>
 
-      {/* Right Content */}
-      <div className="lg:w-[1800px] lg:px-3 font-manrope mt-6 lg:mt-0">
-        <div className="mb-10 pb-4 border-b border-gray-300">
+      {/* Right Content - Card Style */}
+      <div className="lg:w-[1800px] lg:px-3 font-manrope mt-10 lg:mt-0 flex flex-col gap-6">
+        <div className="bg-white rounded-2xl p-6 transition-transform duration-300 ease-in-out shadow-md hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 hover:rotate-[0.5deg] border border-gray-200">
           <h2 className="text-2xl font-semibold text-black">
             B.Tech in Information Technology
           </h2>

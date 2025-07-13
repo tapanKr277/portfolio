@@ -41,7 +41,10 @@ const cirtificates = [
 const Cirtifications = () => {
   return (
     <>
-      <div className="lg:flex justify-between lg:space-x-10 mb-40 min-h-screen pt-28 px-4" id="certification">
+      <div
+        className="lg:flex justify-between lg:space-x-10 mb-40 min-h-screen pt-28 px-4"
+        id="certification"
+      >
         {/* Typing Effect Heading */}
         <div className="lg:w-[900px] lg:text-8xl text-[42px] font-bold text-black">
           <Typewriter
@@ -55,31 +58,30 @@ const Cirtifications = () => {
           />
         </div>
 
-        {/* Certificates List */}
-        <div className="lg:w-[1800px] lg:px-3 font-manrope lg:mr-20">
-          <ul>
-            {cirtificates.map((item, idx) => (
-              <li key={idx} className="mb-6 pb-4 border-b border-gray-300">
-                <h2 className="font-semibold text-black text-xl">
-                  {item.title}
-                </h2>
-                <p className="text-gray-800">Institute: {item.institiute}</p>
-                <div className="flex justify-between text-sm mt-1">
-                  <p className="text-gray-600">
-                    Issuer: {item.issuer} • {item.date}
-                  </p>
-                  <a
-                    href={item.link}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-blue-600 underline"
-                  >
-                    Verify
-                  </a>
-                </div>
-              </li>
-            ))}
-          </ul>
+        {/* Certificates as Cards */}
+        <div className="lg:w-[1800px] lg:px-3 font-manrope lg:mr-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+          {cirtificates.map((item, idx) => (
+            <div
+              key={idx}
+              className="bg-white border border-gray-200 rounded-2xl p-6 shadow-md transition-transform duration-300 ease-in-out hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 hover:rotate-[0.3deg]"
+            >
+              <h2 className="font-semibold text-black text-xl mb-1">
+                {item.title}
+              </h2>
+              <p className="text-gray-800 mb-1">Institute: {item.institiute}</p>
+              <p className="text-sm text-gray-600 mb-2">
+                Issuer: {item.issuer} • {item.date}
+              </p>
+              <a
+                href={item.link}
+                target="_blank"
+                rel="noreferrer"
+                className="text-sm text-blue-600 underline font-medium"
+              >
+                Verify Certificate →
+              </a>
+            </div>
+          ))}
         </div>
       </div>
 
