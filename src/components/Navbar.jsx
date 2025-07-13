@@ -14,7 +14,7 @@ const Navbar = () => {
   return (
     <div className='w-full lg:px-14 px-4 pt-6 pb-2 text-secondary flex justify-between items-center'>
       <div className='text-[32px]'>
-        <Link to={"/"}>Aman Sharma</Link>
+        <Link to={"/"}>Tapan Kumar</Link>
       </div>
       <div className='text-base lg:block hidden'>
         <a className='mx-4 cursor-pointer' onClick={() => smoothScroll('#work')}>Work</a>
