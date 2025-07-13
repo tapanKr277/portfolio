@@ -19,7 +19,7 @@ const Navbar2 = ({ setpg }) => {
         onClick={() => setpg(0)}
       >
         <img
-          src="./logo.png"
+          src="/logo.png"
           alt="Logo"
           className="w-10 h-10 rounded-full border border-gray-300 shadow-sm"
         />
