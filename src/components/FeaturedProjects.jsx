@@ -28,7 +28,7 @@ const projects = [
     role: "Frontend Developer",
     livelink: "https://weather-forecasting-app-tk.vercel.app/",
     gitlink: "https://github.com/tapanKr277/WeatherBroadcasting",
-    img: "./weather_broadcast.jpg",
+    img: "./weather_broadcast.png",
   },
 ];
 
