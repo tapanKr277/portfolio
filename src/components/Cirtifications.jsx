@@ -46,7 +46,7 @@ const Cirtifications = () => {
         id="certification"
       >
         {/* Typing Effect Heading */}
-        <div className="lg:w-[900px] lg:text-8xl text-[42px] font-bold text-black">
+        <div className="lg:w-[1500px] lg:text-8xl text-[42px] font-bold text-black">
           <Typewriter
             words={["My Certifications"]}
             loop={false}
@@ -59,16 +59,18 @@ const Cirtifications = () => {
         </div>
 
         {/* Certificates as Cards */}
-        <div className="lg:w-[1800px] lg:px-3 font-manrope lg:mr-20 grid grid-cols-1 md:grid-cols-2 gap-6">
+        <div className="lg:w-[1800px] lg:px-3 font-manrope lg:mr-20 grid grid-cols-1 md:grid-cols-2 gap-6 mt-10 lg:mt-0">
           {cirtificates.map((item, idx) => (
             <div
               key={idx}
-              className="bg-white border border-gray-200 rounded-2xl p-6 shadow-md transition-transform duration-300 ease-in-out hover:shadow-2xl hover:scale-[1.03] hover:-translate-y-1 hover:rotate-[0.3deg]"
+              className="bg-white rounded-xl shadow-md hover:shadow-2xl transform transition-all duration-300 hover:-translate-y-3 hover:scale-[1.03] border border-gray-100 overflow-hidden p-6"
             >
               <h2 className="font-semibold text-black text-xl mb-1">
                 {item.title}
               </h2>
-              <p className="text-gray-800 mb-1">Institute: {item.institiute}</p>
+              <p className="text-gray-800 mb-1">
+                Institute: {item.institiute}
+              </p>
               <p className="text-sm text-gray-600 mb-2">
                 Issuer: {item.issuer} • {item.date}
               </p>
