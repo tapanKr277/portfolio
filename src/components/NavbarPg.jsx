@@ -18,11 +18,11 @@ const Navbar2 = ({ setpg }) => {
         className="flex items-center gap-3 cursor-pointer hover:text-black transition duration-200"
         onClick={() => setpg(0)}
       >
-        <img
-          src="./logo.png"
+{/*         <img
+          src="/logo.png"
           alt="Logo"
           className="w-10 h-10 rounded-full border border-gray-300 shadow-sm"
-        />
+        /> */}
         <span className="text-[32px] font-bold hover:underline">
           Tapan Kumar
         </span>
