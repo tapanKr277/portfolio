@@ -23,7 +23,10 @@ const projects = [
   },
   {
     h1: "DevSearch",
-    p: "A platform for developers to showcase their portfolios, connect via messages, and search for talent. Built using Django and HTML templates.",
+    p: `A platform for developers to showcase their portfolios, connect via messages, and search for talent. Built using Django and HTML templates. 
+    \n\n🔐 Login Credentials: 
+    \nUsername: admin 
+    \nPassword: admin123`,
     year: "2023",
     role: "Backend + Template UI",
     livelink: "https://devsearch-vkkm.onrender.com/",
