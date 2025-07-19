@@ -13,13 +13,24 @@ const projects = [
     img: "./gyanpath_.png",
   },
   {
-    h1: "E-commerce",
-    p: "A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.",
-    year: "2024",
-    role: "Full Stack Developer",
-    livelink: "https://greetkart.tapmad.space/",
-    gitlink: "https://github.com/tapanKr277/E-commerce",
-    img: "./ecommerce_.png",
+    h1: "DevSearch",
+    p: (
+      <>
+        A platform for developers to showcase their portfolios, connect via messages, and search for talent. Built using Django and HTML templates.
+        <br />
+        <br />
+        🔐 <strong>Login Credentials:</strong>
+        <br />
+        Username: <code>admin</code>
+        <br />
+        Password: <code>admin123</code>
+      </>
+    ),
+    year: "2023",
+    role: "Backend + Template UI",
+    livelink: "https://devsearch-vkkm.onrender.com/",
+    gitlink: "https://github.com/tapanKr277/DevSearch",
+    img: "./devsearch.png",
   },
   {
     h1: "DevSearch",
