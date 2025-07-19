@@ -28,7 +28,7 @@ const projects = [
     ),
     year: "2023",
     role: "Backend + Template UI",
-    livelink: "https://devsearch-vkkm.onrender.com/",
+    livelink: "devsearch.tapmad.space",
     gitlink: "https://github.com/tapanKr277/DevSearch",
     img: "./devsearch.png",
   },
