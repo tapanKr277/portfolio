@@ -34,7 +34,17 @@ const projects = [
   },
   {
     h1: "E-commerce",
-    p: "A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.",
+    p: (
+      <>
+        A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.,
+        <br />
+        🔐 <strong>Login Credentials:</strong>
+        <br />
+        Username: <code>admin</code>
+        <br />
+        Password: <code>admin123</code>
+      </>
+    ),
     year: "2024",
     role: "Full Stack Developer",
     livelink: "https://greetkart.tapmad.space/",
