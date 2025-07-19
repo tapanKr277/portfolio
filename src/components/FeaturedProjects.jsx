@@ -33,7 +33,7 @@ const projects = [
     img: "./devsearch.png",
   },
   {
-    h1: "E-commerce",
+    h1: "Greetkart",
     p: (
       <>
         A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django,
