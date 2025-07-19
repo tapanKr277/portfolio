@@ -10,7 +10,7 @@ const projects = [
     role: "Full Stack Developer",
     livelink: "https://gyanpath.tapmad.space/home",
     gitlink: "https://github.com/tapanKr277/QuizManagementSystem",
-    img: "./ecommerce_.png",
+    img: "./gyanpath_.png",
   },
   {
     h1: "E-commerce",
