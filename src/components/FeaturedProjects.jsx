@@ -40,7 +40,7 @@ const projects = [
         <br />
         🔐 <strong>Login Credentials:</strong>
         <br />
-        Username: <code>admin</code>
+        Username: <code>admin@example.com</code>
         <br />
         Password: <code>admin123</code>
       </>
