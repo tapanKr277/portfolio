@@ -28,7 +28,7 @@ const projects = [
     ),
     year: "2023",
     role: "Backend + Template UI",
-    livelink: "devsearch.tapmad.space",
+    livelink: "https://devsearch.tapmad.space/",
     gitlink: "https://github.com/tapanKr277/DevSearch",
     img: "./devsearch.png",
   },
@@ -36,7 +36,7 @@ const projects = [
     h1: "E-commerce",
     p: (
       <>
-        A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.,
+        A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django,
         <br />
         🔐 <strong>Login Credentials:</strong>
         <br />
