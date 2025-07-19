@@ -33,16 +33,13 @@ const projects = [
     img: "./devsearch.png",
   },
   {
-    h1: "DevSearch",
-    p: `A platform for developers to showcase their portfolios, connect via messages, and search for talent. Built using Django and HTML templates. 
-    \n\n🔐 Login Credentials: 
-    \nUsername: admin 
-    \nPassword: admin123`,
-    year: "2023",
-    role: "Backend + Template UI",
-    livelink: "https://devsearch-vkkm.onrender.com/",
-    gitlink: "https://github.com/tapanKr277/DevSearch",
-    img: "./devsearch.png",
+    h1: "E-commerce",
+    p: "A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.",
+    year: "2024",
+    role: "Full Stack Developer",
+    livelink: "https://e-commerce-o8i9.onrender.com/",
+    gitlink: "https://github.com/tapanKr277/E-commerce",
+    img: "./ecommerce_.png",
   },
   {
     h1: "Weather Broadcasting",
