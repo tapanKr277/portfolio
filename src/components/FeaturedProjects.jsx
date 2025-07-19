@@ -17,7 +17,7 @@ const projects = [
     p: "A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.",
     year: "2024",
     role: "Full Stack Developer",
-    livelink: "https://e-commerce-o8i9.onrender.com/",
+    livelink: "https://greetkart.tapmad.space/",
     gitlink: "https://github.com/tapanKr277/E-commerce",
     img: "./ecommerce_.png",
   },
