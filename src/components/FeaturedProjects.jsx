@@ -26,7 +26,7 @@ const projects = [
     p: "A platform for developers to showcase their portfolios, connect via messages, and search for talent. Built using Django and HTML templates.",
     year: "2023",
     role: "Backend + Template UI",
-    livelink: "https://devsearch-1zbs.onrender.com/",
+    livelink: "https://devsearch-vkkm.onrender.com/",
     gitlink: "https://github.com/tapanKr277/DevSearch",
     img: "./devsearch.png",
   },
