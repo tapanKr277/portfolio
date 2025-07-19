@@ -4,8 +4,17 @@ import { Typewriter } from "react-simple-typewriter";
 
 const projects = [
   {
+    h1: "Gyanpath-Quiz Management System",
+    p: "A full-stack microservices-based quiz platform with role-based access, student performance tracking, and dynamic dashboards.Tech Stack: Angular, Spring Boot, Eureka, Feign, Docker, MySql, Microservice, Oauth, Spring Security. ",
+    year: "2024",
+    role: "Full Stack Developer",
+    livelink: "https://gyanpath.tapmad.space/home",
+    gitlink: "https://github.com/tapanKr277/QuizManagementSystem",
+    img: "./ecommerce_.png",
+  },
+  {
     h1: "E-commerce",
-    p: "A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using React and Django.",
+    p: "A full-featured e-commerce platform with authentication, product management, cart, order placement, and payment integration. Built using Django.",
     year: "2024",
     role: "Full Stack Developer",
     livelink: "https://e-commerce-o8i9.onrender.com/",
@@ -24,10 +33,10 @@ const projects = [
   {
     h1: "Weather Broadcasting",
     p: `A Django-based weather forecast application powered by the OpenWeatherApp API. Users can search and save locations to view real-time weather, temperature, humidity, and more. Features include user authentication, personalized forecasts, and seamless API integration. Built with React, Bootstrap and Tailwind.`,
-    year: "2023",
+    year: "2022",
     role: "Frontend Developer",
     livelink: "https://weather.tapmad.space/",
-    gitlink: "https://github.com/tapanKr277/WeatherBroadcasting",
+    gitlink: "https://github.com/tapanKr277/weather_broadcast_using_react",
     img: "./weather_broadcast.png",
   },
 ];
