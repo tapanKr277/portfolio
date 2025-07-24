@@ -66,7 +66,7 @@ const projects = [
     year: "2022",
     role: "Full Stack Developer",
     livelink: "https://notes.tapmad.space/",
-    gitlink: "https://github.com/tapanKr277/Notes_App_React_Django",
+    gitlink: "https://github.com/tapanKr277/Notes_Using_React_Django",
     img: "./notesapp.png",
   },
 ];
