@@ -55,10 +55,19 @@ const projects = [
     h1: "Weather Broadcasting",
     p: `A Django-based weather forecast application powered by the OpenWeatherApp API. Users can search and save locations to view real-time weather, temperature, humidity, and more. Features include user authentication, personalized forecasts, and seamless API integration. Built with React, Bootstrap and Tailwind.`,
     year: "2022",
-    role: "Frontend Developer",
+    role: "Full Stack Developer",
     livelink: "https://weather.tapmad.space/",
     gitlink: "https://github.com/tapanKr277/weather_broadcast_using_react",
     img: "./weather_broadcast.png",
+  },
+   {
+    h1: "Notes App",
+    p: `A full-stack notes manager that allows users to create, update, and delete notes in real-time. Features include rich text editing, loading indicators, and toast notifications. Built with React, Django REST API, and deployed via Render.`,
+    year: "2022",
+    role: "Full Stack Developer",
+    livelink: "https://notes.tapmad.space/",
+    gitlink: "https://github.com/tapanKr277/Notes_App_React_Django",
+    img: "./notesapp.png",
   },
 ];
 
