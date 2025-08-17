@@ -25,6 +25,13 @@ const categorizedSkills = {
     "Beat",
     "Worker",
   ],
+  "AI & LLM ECOSYSTEM" : [
+    "LangChain",
+    "RAG",
+    "HuggingFaceTransformers",
+    "OpenAI/Ollama/DeepSeekAPIs",
+    "Groq"
+  ],
   Databases: ["PostgreSQL", "MySQL"],
   "DevOps & Tools": ["Docker", "Prometheus", "Grafana", "Github", "Github Action"],
   "Security & Auth": ["JWT", "OAuth"],
