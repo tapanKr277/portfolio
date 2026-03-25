@@ -28,12 +28,11 @@ const Intro = () => {
         <p className="font-medium text-base lg:text-lg text-gray-800 font-manrope w-full mt-4">
           Full-Stack Developer | React, Django & Spring Boot
         </p>
-        <p className="font-medium text-base lg:text-lg text-gray-700 font-manrope w-full mt-4">
-          I specialize in building robust, scalable web applications using React, Redux, TailwindCSS for frontend,
-          and Django or Spring Boot on the backend. Experienced with WebSockets, REST APIs, Celery (Beat & Worker),
-          PostgreSQL, and end-to-end deployment.
-        </p>
-
+      <p className="font-medium text-base lg:text-lg text-gray-700 font-manrope w-full mt-4">
+        Backend-focused engineer specializing in Spring Boot and microservices architecture, building scalable and high-performance systems for real-world applications. 
+        Skilled in developing secure REST APIs, implementing distributed systems, and optimizing backend performance for high-throughput environments. 
+        Complemented by frontend expertise in React, Redux, and TailwindCSS, with experience in WebSockets, PostgreSQL, and full-cycle deployment.
+      </p>
         {/* Buttons Section */}
         <div className="flex mt-10 items-center gap-4 flex-nowrap overflow-x-auto">
           {/* Resume Button */}

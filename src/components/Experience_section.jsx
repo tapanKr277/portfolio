@@ -12,14 +12,14 @@ export const experience = [
       "Leading backend developement",
   },
   {
-    title: "Analyst – Full Stack Developer",
-    company: "Capgemini India Pvt Ltd",
-    start: "June 2024",
-    end: "December 2025",
-    location: "Bengaluru, India",
-    discription:
-      "Leading backend migration from Spring Boot to Django across enterprise platforms, reducing tech debt and improving maintainability. Refactored monolithic Java microservices into modular, scalable Django REST APIs. Collaborating cross-functionally to redesign frontend interfaces using React, Redux, and TailwindCSS, improving user satisfaction scores by 25%.",
-  },
+  title: "Analyst – Full Stack Developer",
+  company: "Capgemini India Pvt Ltd",
+  start: "June 2024",
+  end: "December 2025",
+  location: "Bengaluru, India",
+  description:
+    "Engineered 100+ REST APIs using Spring Boot for enterprise banking applications handling high-volume transactions. Built a template & rule management system supporting Email, SMS, and Push notifications, reducing manual effort by ~40%. Implemented a maker-checker (RBAC-based approval) workflow, improving operational security and reducing unauthorized actions by ~30%. Developed payment validation logic (BEN, SHA, OUR) processing 1000+ daily transactions with accurate FX-based calculations. Configured card validation rules, reducing transaction failures by ~25%, and optimized fail-fast validation to cut invalid request processing time by ~35%.",
+},
   {
     title: "Graduate Engineer Trainee – DevOps & Monitoring",
     company: "Jio Platforms Limited",
