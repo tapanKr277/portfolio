@@ -30,7 +30,7 @@ export const experience = [
       "Built a real-time DevOps monitoring dashboard that visualized system alerts by severity level. Designed backend logic to store and classify alerts efficiently using PostgreSQL and Django. Integrated Prometheus and Grafana for data visualization. Enabled 40% faster incident response through alert prioritization and visual cues.",
   },
   {
-    title: "Full Stack Developer – Network Automation",
+    title: "Full Stack Developer – Network Automation (Internship)",
     company: "Auctopus Technologies",
     start: "Apr 2023",
     end: "Nov 2023",
