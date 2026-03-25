@@ -7,7 +7,7 @@ const Experiencecard_for_about = ({ job }) => {
         <div className="text-sm text-gray-500 mb-2">
           {job.start} – {job.end} • {job.location}
         </div>
-        <p className="text-base text-gray-800">{job.description}</p>
+        <p className="text-base text-gray-800">{job.discription}</p>
       </div>
     </div>
   );
