@@ -17,8 +17,7 @@ export const experience = [
   start: "June 2024",
   end: "December 2025",
   location: "Bengaluru, India",
-  description:
-    "Engineered 100+ REST APIs using Spring Boot for enterprise banking applications handling high-volume transactions. Built a template & rule management system supporting Email, SMS, and Push notifications, reducing manual effort by ~40%. Implemented a maker-checker (RBAC-based approval) workflow, improving operational security and reducing unauthorized actions by ~30%. Developed payment validation logic (BEN, SHA, OUR) processing 1000+ daily transactions with accurate FX-based calculations. Configured card validation rules, reducing transaction failures by ~25%, and optimized fail-fast validation to cut invalid request processing time by ~35%.",
+  discription:"Engineered 100+ REST APIs using Spring Boot for enterprise banking applications handling high-volume transactions. Built a template & rule management system supporting Email, SMS, and Push notifications, reducing manual effort by ~40%. Implemented a maker-checker (RBAC-based approval) workflow, improving operational security and reducing unauthorized actions by ~30%. Developed payment validation logic (BEN, SHA, OUR) processing 1000+ daily transactions with accurate FX-based calculations. Configured card validation rules, reducing transaction failures by ~25%, and optimized fail-fast validation to cut invalid request processing time by ~35%.",
 },
   {
     title: "Graduate Engineer Trainee – DevOps & Monitoring",
