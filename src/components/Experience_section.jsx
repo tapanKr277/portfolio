@@ -2,11 +2,20 @@ import { Typewriter } from "react-simple-typewriter";
 import Experiencecard_for_about from "./Experiencecard_for_about";
 
 export const experience = [
+   {
+    title: "Associate Business Analyst",
+    company: "Infosys Technologies Private Limited",
+    start: "December 2025",
+    end: "Present",
+    location: "Bengaluru, India",
+    discription:
+      "Leading backend developement",
+  },
   {
     title: "Analyst – Full Stack Developer",
     company: "Capgemini India Pvt Ltd",
     start: "June 2024",
-    end: "Present",
+    end: "December 2025",
     location: "Bengaluru, India",
     discription:
       "Leading backend migration from Spring Boot to Django across enterprise platforms, reducing tech debt and improving maintainability. Refactored monolithic Java microservices into modular, scalable Django REST APIs. Collaborating cross-functionally to redesign frontend interfaces using React, Redux, and TailwindCSS, improving user satisfaction scores by 25%.",
